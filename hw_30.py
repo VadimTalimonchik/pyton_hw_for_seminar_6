@@ -5,4 +5,12 @@
 # Ввод: 7 2 5
 # Вывод: 7 9 11 13 15
 
-print('hello 30')
+print()
+a1 = int(input('Введите первый элемент: '))
+d = int(input('Введите шаг (разность): '))
+n = int(input('Введите количество элементов: '))
+print()
+
+for i in range(n):
+    print(a1 + i * d, end = ' ')
+
