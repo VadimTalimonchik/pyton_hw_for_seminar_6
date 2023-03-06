@@ -11,6 +11,7 @@ d = int(input('Введите шаг (разность): '))
 n = int(input('Введите количество элементов: '))
 print()
 
+print('Арифметическоя прогрессия:')
 for i in range(n):
     print(a1 + i * d, end = ' ')
-
+print()
